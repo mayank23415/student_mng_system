@@ -49,6 +49,18 @@ This is a Student Management System API built using Node.js, Express.js, TypeScr
 | GET    | /student/tasks      | Get assigned tasks       | -                                      |
 | PATCH  | /student/task-status| Update task status (completed) | `{ "taskId": "string", "status": "completed" }` |
 
+## API Documentation
+
+For detailed API documentation and example requests, check out the Postman Collection:
+👉 https://www.postman.com/orbital-module-architect-34217686/student-management-system/collection/of7pqxf/student-management-system?action=share&creator=29105602
+
+## License
+
+This project is licensed under the MIT License.
+
+## Env
+PORT
+MONGO_URI
 
 ## Author
 
