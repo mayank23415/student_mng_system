@@ -11,7 +11,6 @@ This is a Student Management System API built using Node.js, Express.js, TypeScr
 - **TypeScript** - Typed JavaScript
 - **MongoDB Atlas** - Cloud database
 - **Mongoose** - ODM for MongoDB
-- **bcryptjs** - Password hashing
 - **dotenv** - Environment variables management
 - **express-validator** - Input validation
 
@@ -50,14 +49,6 @@ This is a Student Management System API built using Node.js, Express.js, TypeScr
 | GET    | /student/tasks      | Get assigned tasks       | -                                      |
 | PATCH  | /student/task-status| Update task status (completed) | `{ "taskId": "string", "status": "completed" }` |
 
-## API Documentation
-
-For detailed API documentation and example requests, check out the Postman Collection:
-👉 [Postman API Documentation](Replace with actual Postman collection URL)
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Author
 
